@@ -7,7 +7,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/aigou_product
     username: root
-    password: root
+    password: root #1
 mybatis-plus:
   mapper-locations: classpath:com/yh/aigou/mapper/*Mapper.xml
   type-aliases-package: com.yh.aigou.domain,com.yh.aigou.query
